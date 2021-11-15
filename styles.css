@@ -1,5 +1,7 @@
 /* Dmitrii Orlov */
-
+body{
+  background-color: #CBC0EE;
+}
 
 #counter {
   width: 300px;
