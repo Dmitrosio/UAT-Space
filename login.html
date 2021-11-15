@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>UAT SPACE Login Screen</title>
+	<script src="login.js"></script>
+	<h1>UAT SPACE Login</h1>
+</head>
+<body>
+	<h2>Please enter your creditentials...</h2>
+	<br>
+	<p id="loginStatus">Status of login...</p>
+	<br>
+	<form id="creditSubmit" onsubmit="return false">
+		First Name: <input type="text" id="fName" /><br>
+		Last Name: <input type="text" id="lName" /><br>
+		Badge Number: <input type="text" id="badgeID"><br>
+		<input type="submit" onclick="checkCreds();" />
+	</form> 
+</body>
+</html>
