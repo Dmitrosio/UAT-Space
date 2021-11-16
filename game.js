@@ -1,5 +1,5 @@
 // Dmitrii Orlov
-function play() {
+function kplay() {
     var die1 =Math.ceil(Math.random()*6);//First die, calling random number between 1-6.
     var die2 =Math.ceil(Math.random()*6);//Second die, calling random number between 1-6.
     
